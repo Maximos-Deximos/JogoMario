@@ -58,4 +58,4 @@ while ($true) {
 }
 ```
 Eu não tenho certeza o porque esses comando tem que ser rodado para um agente de I.A interagir corretamente com
-o codigo presente no repositório, mas testes feitos em minha maquina local aponteu para a solução apresentada acima.
+o codigo presente no repositório, mas testes feitos em minha maquina local apontou para a solução apresentada acima.
