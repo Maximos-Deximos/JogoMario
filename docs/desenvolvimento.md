@@ -20,4 +20,3 @@ feat (ou add): adiciona login
 fix: corrige validação de usuário
 docs: atualiza documentação
 ```
-TODO: atualizar de acordo com o desenvolvimento do projeto
