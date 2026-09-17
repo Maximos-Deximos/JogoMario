@@ -20,7 +20,15 @@ const loop = setInterval(() => {
     if (tuboPosicao <= 120 && naomarioPosicao < 75 && tuboPosicao > 0) {
         tubo.style.animation = 'none';
         tubo.style.animation `$(tuboPosicao)px;`
+
+        naomario.style.animation = 'none';
+        naomario.style.bottom = `$(naoMarioPosicao)px`;
+
+        naomario.src = './src/assets/images/game-over.png';
+
+        clearInterval(loop);
     }
+
 
 }, 10)
 
