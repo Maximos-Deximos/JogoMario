@@ -6,4 +6,4 @@ Um jogo simples utilizando html, css e js.
 - CSS
 - JavaScript
 
-
+TODO: atualizar apos finalização do projeto
