@@ -1,8 +1,10 @@
 const naomario = document.querySelector('.naomario');
 const tubo = document.querySelector('.tubo');
+const nuvens = document.querySelector('.nuvens');
 
 const pulando = () => naomario.classList.contains('pulo');
 
+// Codigo de pulo modificado, naomario não censegue mais dar pulos duplos
 const pulo = (event) => {
     if (event.code !== 'Space' && event.code !== 'ArrowUp' && event.code !== 'KeyW') return;
     event.preventDefault();
@@ -26,6 +28,9 @@ const loop = setInterval(() => {
         naomario.style.bottom = '0px';
 
         naomario.src = './src/assets/images/game-over.png';
+
+        nuvens.style.right = window.getComputedStyle(nuvens).right;
+        nuvens.style.animation = 'none';
 
         clearInterval(loop);
     }
