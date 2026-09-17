@@ -15,9 +15,8 @@ git clone https://github.com/Maximos-Deximos/JogoMario
 Usamos Conventional Commits:
 
 exemplo:
-
-feat: adiciona login
+```text
+feat (ou add): adiciona login
 fix: corrige validação de usuário
 docs: atualiza documentação
-
-TODO: atualizar de acordo com o desenvolvimento do projeto
+```
