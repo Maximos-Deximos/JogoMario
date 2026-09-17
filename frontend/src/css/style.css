@@ -43,6 +43,7 @@
     animation: nuvens-animacao 0.5s infinite linear;
 }
 
+/* Animações */
 @keyframes tubo-animacao {
     from {
         right: -80px
@@ -83,3 +84,5 @@
         right: 100%;
     }
 }
+
+/* pOlnnsju¨jfnsi77nsh */

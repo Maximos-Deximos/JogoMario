@@ -28,7 +28,7 @@ const loop = setInterval(() => {
         naomario.style.bottom = '0px';
 
         naomario.src = './src/assets/images/game-over.png';
-
+         // fazem as nuvens parar quando o naomario morre violentamente
         nuvens.style.right = window.getComputedStyle(nuvens).right;
         nuvens.style.animation = 'none';
 
@@ -40,5 +40,5 @@ const loop = setInterval(() => {
 naomario.addEventListener('animationend', () => {
     naomario.classList.remove('pulo');
 });
-
+// 7778s77xhhHHH77s8x888**888x
 document.addEventListener('keydown', pulo);
